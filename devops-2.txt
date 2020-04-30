@@ -1,0 +1,34 @@
+#Day18 
+Summary of #DevOps
+
+--> Recap of the topics covered in previous class.
+--> In the devops world, one of the crucial and important tool is Git
+--> Developer will create code and keep it in the centralized github 
+--> Operations team creates an environment for implementation, download and deploy code.
+--> Silos Problem
+--> What is workstation?
+--> Created a repo using command line.
+--> To initialize a repository we use a command git init
+--> For performing practical, we created a basic html file using cat command.
+--> Initially git doesnt keep a track of the file.
+--> In order to enable git to keep track, we have to add the file in staging area. For this we use git add {file_name} command.
+--> After adding, we can check the status using git status command
+--> we can overwrite the file using cat >> {file name}
+--> Again commit the file so as to upload the changes
+--> git log command is used to check the versions created
+--> When we run git commit {filename} it shows an error that we dont recognize you, please tell me your identity.
+--> To provide the identity we run the 2 commands below:
+     git config --global user.email "email"
+     git config --global user.name "name"
+
+--> To check the credentials , use git config --global list
+--> Commit using git commit {file_name} -m "{comment}"
+--> If you want to push the repo using cmd,  use git push but the command fails.
+--> The system where you will upload is Remote System hence you will have the run this command:
+git remote add {any name} {url}
+--> git track  keeps an eye on the repositories on both your local system and github.
+--> We have to tell local system about the remote system using git remote command. 
+--> git push --set --upstream 'name' command to create a branch in remote system and then link the local system with the remote system
+--> To clone the repo on client system, we have to run git clone {url} command
+--> If the developer has made some false changes and commit the file, the wesite might get down, in this case the operations team perform the rollback using git reset {commit ID} {file}
+--> to checkout, we use git checkout -- {filename}

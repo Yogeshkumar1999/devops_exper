@@ -1,0 +1,28 @@
+to share the  code we need to use the git hub.
+we need centralised scm system(source code mamnagement).
+we call the code as the work space.
+In  git we call it as repository.
+ti upload it in git we need an account in git.
+version control is the main part of the git hub uses.
+we want to roll back.
+seee the history and you can see all the version of te code in github
+.earlier we have the centalised version cinroll system.
+now we have the decentralise version control system.
+git id decentralised and github is centralised the one.
+linux kernel and git is created by same person.
+git is the local version control.
+by using thr local lan we can share the code with in th3 permises.
+we need to say git ti track the changes to the file.
+we have the stagging area.
+git staus -s.
+git log yogesh.txt
+it will show the version of the code.
+git add.
+git commit -m "added the things".
+commi id /version.
+it will be in the local.
+to sen it to the githud use the git push.
+
+
+
+
