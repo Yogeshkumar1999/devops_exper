@@ -22,6 +22,7 @@ git commit -m "added the things".
 commi id /version.
 it will be in the local.
 to sen it to the githud use the git push.
+also many.
 
 
 
